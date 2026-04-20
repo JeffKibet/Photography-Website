@@ -71,7 +71,6 @@ Author
 
 Jeff Kibet
 
----
 
 License
 
