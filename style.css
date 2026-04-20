@@ -142,6 +142,13 @@ div img{
     width: 200px;
 }
 
+.thumbnail{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 form{
     max-width: 650px;
     margin: 20px auto;
