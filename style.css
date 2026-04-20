@@ -53,6 +53,7 @@ section{
     border-radius: 8px;
     max-width: 900px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
 
 }
 
@@ -60,6 +61,11 @@ section h3{
     font-size: 28px;
     margin-bottom:14px ;
 }
+
+section:hover{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+    
 
 .gallery{
     display: flex;
