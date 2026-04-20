@@ -26,6 +26,13 @@ nav ul{
 
 nav ul li{
     margin: 0 15px;
+
+}
+
+nav ul li:hover{
+    background-color: #333;
+    border-radius: 8px;
+    
 }
 
 nav ul li a{
