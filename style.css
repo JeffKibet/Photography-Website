@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 0;
     color: gray;
-    background-color: white;
+    background-color: rgb(50, 49, 49);
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,15 +49,112 @@ section{
 
 }
 
+section h3{
+    font-size: 28px;
+    margin-bottom:14px ;
+}
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
-/* 
-.gallery div{
-    width: calc(33% - 10px);
-    height: auto;
-    margin-bottom: 20px;
+ 
+.jeff1{
+    background-color: rgb(50, 49, 49);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     
-} */
+}
+
+#jeff1{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.jeff2{
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+#jeff2{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+}
+
+.jeff3{
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#jeff3{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+    
+.jeff4{
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#jeff4{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+div img{
+    height: 200px;
+    width: 200px;
+}
+
+form{
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+form label{
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #333;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+
