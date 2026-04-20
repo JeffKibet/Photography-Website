@@ -49,6 +49,7 @@ h4{
 .hero img{
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 section{
@@ -91,6 +92,7 @@ section:hover{
     margin-top: 20px;
     height: 300px;
     width: 300px;
+    border-radius: 8px;
 }
 
 .jeff2{
@@ -104,6 +106,7 @@ section:hover{
     height: 300px;
     width: 300px;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .jeff3{
@@ -117,6 +120,7 @@ section:hover{
     margin-top: 20px;
     height: 300px;
     width: 300px;
+    border-radius: 8px;
 }
     
 .jeff4{
@@ -130,6 +134,7 @@ section:hover{
     margin-top: 20px;
     height: 300px;
     width: 300px;
+    border-radius: 8px;
 }
 
 div img{
