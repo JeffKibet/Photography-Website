@@ -142,11 +142,18 @@ div img{
     width: 200px;
 }
 
-.thumbnail{
-    height: 300px;
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
+.design{
+    color: black;
+}
+
+.design a{
+    color: blue;
+    text-decoration: none;
+}
+
+.design a:hover{
+    text-decoration: underline;
+    color: darkcyan;
 }
 
 form{
