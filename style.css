@@ -142,19 +142,6 @@ div img{
     width: 200px;
 }
 
-.design{
-    color: black;
-}
-
-.design a{
-    color: blue;
-    text-decoration: none;
-}
-
-.design a:hover{
-    text-decoration: underline;
-    color: darkcyan;
-}
 
 form{
     max-width: 650px;
